@@ -1,0 +1,127 @@
+*{    
+    margin: 0;
+    text-align: center;
+    font-family: "Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+.header{
+    padding: 80px;
+    background-color: #e0ebe8;
+    font-size: 30px;
+}
+
+.title{
+    padding: 150px 0px;
+}
+.para{
+    background-color: #5dac94;
+    padding: 25px 25px;
+    
+}
+
+
+.tabs{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    font-size: 25px;
+    color: white;
+    }
+.space{
+    padding: 15px;
+}
+
+.paraTab{
+    color: white;
+}    
+
+.btn{
+    display: flex;
+    
+}    
+.tablink{
+    background-color: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 0px;
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.tablink:hover{
+    background-color: #777;
+}
+
+.tabcontent{
+    color: white;
+    display: none;
+    padding: 50px 0px;
+    height: 100%;
+    text-align: center;
+}
+
+#Exp{
+    background-color: #66A7D5;
+    width: 100%;
+}
+
+#Edu{
+    background-color: #679895;
+    width: 100%;
+}
+
+.h2Tab{
+    padding: 30px 0px;
+    color: white;
+}
+
+img{
+    height:250px;
+    width: 250px;
+    border-radius: 10%;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.firstProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+    background-color: #31355b;
+    gap: 50px;
+}
+.secondProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 0px;
+    background-color: #E29470; 
+    gap: 50px;
+}
+footer{
+    background-color: #e0ebe8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
